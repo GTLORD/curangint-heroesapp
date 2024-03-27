@@ -1,0 +1,32 @@
+<div class="flex flex-column">
+
+  <span class="text-lg mb-4">Registro</span>
+
+  <mat-form-field>
+    <mat-label>Username <mat-icon>person_4</mat-icon></mat-label>
+    <input type="text" matInput placeholder="Nickname"  >
+  </mat-form-field>
+  <mat-form-field>
+    <mat-label>Nombre <mat-icon>person_check</mat-icon></mat-label>
+    <input type="text" matInput placeholder="Nombre"  >
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Contraseña  <mat-icon>password</mat-icon></mat-label>
+    <input type="password" matInput placeholder="Password">
+  </mat-form-field>
+
+  <mat-form-field>
+    <mat-label>Correo Electrónico <mat-icon>mail</mat-icon></mat-label>
+    <input type="password" matInput placeholder="Email">
+  </mat-form-field>
+
+  <button mat-button mat-flat-button color="primary">
+    Crear Cuenta
+    <mat-icon>save_as</mat-icon>
+  </button>
+  <div class="flex justify-content-end mt5">
+    <a routerLink="/auth/login">¿Ya tienes cuenta?</a>
+  </div>
+
+</div>
